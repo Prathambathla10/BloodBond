@@ -104,4 +104,4 @@ def aboutus():
 def events():
     return send_file("static/cons.jpg", mimetype='image/jpg')
 
-app.run(debug=True)
+app.run(debug=False,host='0.0.0.0')
